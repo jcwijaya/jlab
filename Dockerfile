@@ -10,6 +10,7 @@ RUN apt-get update && \
     gromacs \
     gromacs-mpich \
     dnsutils \
+    ssh \
     grace \
     && apt-get clean
 
