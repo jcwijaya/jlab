@@ -1,4 +1,4 @@
-FROM jlphillips/k8s-lab
+FROM jlphillips/csci3130
 
 LABEL maintainer="Joshua L. Phillips <https://www.cs.mtsu.edu/~jphillips/>"
 
