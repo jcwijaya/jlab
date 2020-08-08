@@ -45,4 +45,4 @@ RUN chmod 600 /home/jovyan/.ssh/known_hosts
 RUN chown -R jovyan /home/jovyan/.ssh
 
 # CSCI 3130
-USER $NB_UID
+#USER $NB_UID
