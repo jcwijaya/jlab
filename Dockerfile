@@ -1,4 +1,4 @@
-FROM jlphillips/csci3130
+FROM jlphillips/csci4850
 
 LABEL maintainer="Joshua L. Phillips <https://www.cs.mtsu.edu/~jphillips/>"
 
@@ -10,7 +10,6 @@ RUN apt-get update && \
     gromacs \
     gromacs-mpich \
     dnsutils \
-    ssh \
     grace \
     && apt-get clean
 
